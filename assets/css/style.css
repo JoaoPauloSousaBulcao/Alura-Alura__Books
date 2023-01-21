@@ -1,6 +1,9 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("carrossel.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("rodape.css");
 
 
 
@@ -13,6 +16,7 @@
     --azul--gradiente--escuro: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte--principal: "Poppins";
     --azul: #002F52;
+    --preto: #000000;;
 }
 
 body{
@@ -24,5 +28,9 @@ body{
 
 h1{
     background-color: white;
+}
+
+hr{
+    margin: 0;
 }
 
