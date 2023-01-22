@@ -11,3 +11,32 @@
 .rodape__campo--listas{
     display: none;
 }
+
+@media screen and (min-width: 700px){
+
+    .rodape{
+        display: flex;
+        justify-content: space-between;
+        padding: 3em 1em;
+    }
+
+    .rodape__campo--listas{
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+    }
+
+    .rodape__lista{
+        margin: 0 2em;
+    }
+
+    .rodape__item{
+        display: flex;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .rodape__item img{
+        margin: 0 .5em;
+    }
+}

@@ -1,4 +1,4 @@
-.Carrossel__titulo{
+.carrossel__titulo{
     color: var(--laranja);
     background-color: var(--branco);
     text-align: center;
@@ -77,4 +77,37 @@
     text-align: center;
     background-color: var(--laranja);
     padding: 1em 2.2em;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo{
+        padding: 2em 0 1em;
+    }
+
+    .carrossel__titulo{
+        font-size: 26px;
+    }
+
+    .swiper-pagination{
+        margin: 2em 0 3em;
+    }
+
+
+    .swiper{
+        width: 60%;
+    }
+
+
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: block;
+        top: 60%;
+        background: var(--azul--gradiente--escuro);
+        color: var(--branco);
+        padding: 1em;
+        border-radius: 50px;
+        width: 50px;
+        text-align: center;
+    }
+
 }
