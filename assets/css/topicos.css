@@ -34,12 +34,32 @@
 
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1024px){
     .topicos{
         padding: 1em 5em;
     }
 
     .topicos__lista{
         margin: 0 1em;
+    }
+
+    .topicos__item {
+        margin: 2.5em 0.75em;
+    }
+
+    .topicos__link{
+
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1720px) {
+    .topicos {
+        padding: 3em 25em;
+    }
+
+
+    .topicos__titulo{
+        font-size: 32px;
     }
 }

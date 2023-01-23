@@ -37,10 +37,10 @@
     padding-left: 2em ;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1024px){
     .contato{
         display: flex;
-        padding: 2em 5em;
+        padding: 3em 10em;
         align-items: center;
     }
 
@@ -49,5 +49,25 @@
         margin: 0 1em .5em;
     }
 
+    .contato__titulo{
+        font-size: 24px;
+    }
+
+    .contato__campo{
+        padding: 1em 3em;
+    }
+
+    .contato__campo::placeholder{
+        font-size: 16px;
+        background-position-y: center;
+    }
+    
+}
+
+@media screen and (min-width: 1720px) {
+
+    .contato{
+        padding: 3em 28em;
+    }
     
 }
